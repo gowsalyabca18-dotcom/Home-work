@@ -1,0 +1,22 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Inheritance1;
+
+/**
+ *
+ * @author Administrator
+ */
+public class Manager extends Employee
+{
+public Manager(String name)
+{
+  super(name);  
+}
+public void shoeRole()
+{
+    System.out.println(name);
+}
+}
