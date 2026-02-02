@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="277.0" prefWidth="314.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="calculateapp.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="dspl" layoutX="51.0" layoutY="43.0" onAction="#display" prefHeight="25.0" prefWidth="231.0" promptText="display screen" />
+      <Button fx:id="o1" layoutX="45.0" layoutY="85.0" mnemonicParsing="false" onAction="#one" text="1" />
+      <Button fx:id="t2" layoutX="109.0" layoutY="85.0" mnemonicParsing="false" onAction="#two" text="2" />
+      <Button fx:id="th3" layoutX="170.0" layoutY="85.0" mnemonicParsing="false" onAction="#three" text="3" />
+      <Button fx:id="f5" layoutX="109.0" layoutY="124.0" mnemonicParsing="false" onAction="#five" text="5" />
+      <Button fx:id="s6" layoutX="170.0" layoutY="125.0" mnemonicParsing="false" onAction="#six" text="6" />
+      <Button fx:id="s7" layoutX="45.0" layoutY="161.0" mnemonicParsing="false" onAction="#seven" text="7" />
+      <Button fx:id="n9" layoutX="170.0" layoutY="161.0" mnemonicParsing="false" onAction="#nine" text="9" />
+      <Button fx:id="z0" layoutX="109.0" layoutY="198.0" mnemonicParsing="false" onAction="#zero" text="0" />
+      <Button fx:id="cl" layoutX="45.0" layoutY="198.0" mnemonicParsing="false" onAction="#clear" text="c" />
+      <Button fx:id="eql" layoutX="170.0" layoutY="198.0" mnemonicParsing="false" onAction="#equals" text="=" />
+      <Button fx:id="F4" layoutX="45.0" layoutY="124.0" mnemonicParsing="false" onAction="#four" text="4" />
+      <Button fx:id="mi" layoutX="232.0" layoutY="125.0" mnemonicParsing="false" onAction="#minus" text="-" />
+      <Button fx:id="mul" layoutX="232.0" layoutY="161.0" mnemonicParsing="false" onAction="#multi" text="*" />
+      <Button fx:id="div" layoutX="232.0" layoutY="198.0" mnemonicParsing="false" onAction="#divide" text="/" />
+      <Button fx:id="e8" layoutX="106.0" layoutY="161.0" mnemonicParsing="false" onAction="#eight" text="8" />
+      <Button fx:id="pl" layoutX="222.0" layoutY="85.0" mnemonicParsing="false" onAction="#plus" text="+" />
+    </children>
+</AnchorPane>
